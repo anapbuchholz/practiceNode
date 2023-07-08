@@ -1,0 +1,30 @@
+
+.search-container {
+    align-items: center;
+    margin-top: 20px; /* Adjust the margin as needed */
+    margin-bottom: 800px;
+    
+    input {
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      margin-right: 10px;
+    }
+  
+    button {
+      background-color: blue;
+      color: white;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  
+    p {
+      margin-top: 10px;
+      font-size: 14px;
+    }
+  }
+    
+  
+  

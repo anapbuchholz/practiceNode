@@ -1,0 +1,59 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.background-image {
+  background-image: url('../../../../assets/images/unsplash_m_7p45JfXQo.png');
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Definindo o z-index para enviar o background para trás */
+}
+
+.login-box {
+  background-color: white;
+  border-radius: 10px;
+  padding: 70px;
+  width: 300px;
+  text-align: center;
+  position: relative; /* Adicionando position relative ao login-box */
+  z-index: 1; /* Definindo o z-index para enviar o login-box para frente */
+}
+
+      
+      h2 {
+        margin-bottom: 20px;
+      }
+      
+      .form-group {
+        margin-bottom: 15px;
+      }
+      
+      label {
+        display: block;
+        font-weight: bold;
+      }
+      
+      input[type="text"],
+      input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+      
+      .login-button {
+        background-color: #002fea;
+        color: white;
+        padding: 10px 143px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }      

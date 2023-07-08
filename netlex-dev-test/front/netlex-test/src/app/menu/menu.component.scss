@@ -1,0 +1,31 @@
+.menu {
+    background-image: url('../../../../assets/images/unsplash_m_7p45JfXQo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 130vh; /* Define a altura para preencher a tela inteira */
+    width: 200px; /* Define a largura do menu */
+  
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+  
+    li {
+      margin-bottom: 10px;
+  
+      a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        display: block;
+        padding: 5px;
+        border-radius: 5px;
+  
+        &:hover {
+          background-color: #eee;
+        }
+      }
+    }
+  }

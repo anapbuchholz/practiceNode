@@ -1,0 +1,16 @@
+<div class="login-container">
+    <div class="background-image"></div>
+    <div class="login-box">
+      <h2>Login</h2>
+      <div class="form-group">
+        <label for="username">Usuário:</label>
+        <input type="text" [(ngModel)]="username" id="username" name="username" placeholder="Digite seu usuário" />
+      </div>
+      <div class="form-group">
+        <label for="password">Senha:</label>
+        <input type="password" [(ngModel)]="password" id="password" name="password" placeholder="Digite sua senha" />
+      </div>
+      <button class="login-button" (click)="logar()">Entrar</button>
+    </div>
+  </div>
+  

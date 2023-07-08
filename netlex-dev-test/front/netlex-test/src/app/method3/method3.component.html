@@ -1,0 +1,23 @@
+<h1>Método 3 </h1>
+  
+  <h4>Count</h4>
+  <mat-form-field>
+    <mat-label>1</mat-label>
+    <mat-select [(ngModel)]="selectedValue" name="opcoes">
+      <mat-option *ngFor="let number of numbers" [value]="number.value">
+        {{number.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  
+  <h4>Minimum Word Length</h4>
+  <mat-form-field>
+    <mat-label>1</mat-label>
+    <mat-select [(ngModel)]="selectedValue2" name="opcoes">
+      <mat-option *ngFor="let number of numbers" [value]="number.value">
+        {{number.viewValue}}
+      </mat-option>
+    </mat-select>
+  </mat-form-field>
+  <button (click)="verificar()">Verificar</button>
+  

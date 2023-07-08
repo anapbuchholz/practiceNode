@@ -1,0 +1,9 @@
+<h1>Método 2</h1>
+<div class="search-container">
+  <input type="text" [(ngModel)]="searchedWord" placeholder="Digite uma palavra">
+  <button (click)="verificar()">Verificar</button>
+  <p>A palavra {{ searchedWord }} foi encontrada em {{ items.length }} frases no texto.</p>
+  <div *ngFor="let item of items">
+    <p>{{ item }}</p>
+  </div>  
+</div>

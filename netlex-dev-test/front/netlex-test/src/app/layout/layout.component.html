@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="menu" *ngIf="isLoggedIn()">
+      <app-menu></app-menu>
+    </div>
+    <div class="conteudo" *ngIf="isLoggedIn(); else notLogged">
+      <router-outlet></router-outlet>
+    </div>
+    <ng-template #notLogged>
+      <app-login></app-login>
+    </ng-template>
+  </div>
+  
